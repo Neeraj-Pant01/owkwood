@@ -108,7 +108,7 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'; // Import Font Awesome icons
+import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import "../App.css"
 
 const Testimonial = () => {
