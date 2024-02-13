@@ -1,9 +1,8 @@
-import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 
 const NavigationBar = () => {
   return (
-    <Navbar bg="dark" expand="lg" variant="dark" sticky="top">
+    <Navbar style={{background:'#0F172B'}} expand="lg" variant="dark" sticky="top">
       <Container>
         <Navbar.Brand href="/">Logo</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

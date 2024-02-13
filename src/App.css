@@ -17,9 +17,15 @@
   background-color: blue; /* Change to your desired color */
   border-color: blue; /* Change to your desired color */
 }
+.carousel .carousel-slider .control-dots .dot {
+  background-color: red;
+}
+
 
 /* Custom style for the active carousel indicator */
 .carousel .carousel-indicators .active {
   background-color: red; /* Change to your desired color */
   border-color: red; /* Change to your desired color */
 }
+
+

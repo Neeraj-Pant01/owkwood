@@ -1,57 +1,70 @@
-import React from 'react';
-import { Row, Col, Card } from 'react-bootstrap';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-
 const Services = () => {
-  const services = [
-    {
-      icon: 'fa-utensils',
-      title: 'Restaurant',
-      description: 'Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.',
-    },
-    {
-      icon: 'fa-spa',
-      title: 'Spa & Fitness',
-      description: 'Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.',
-    },
-    {
-      icon: 'fa-swimmer',
-      title: 'Sports & Gaming',
-      description: 'Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.',
-    },
-    {
-      icon: 'fa-glass-cheers',
-      title: 'Event & Party',
-      description: 'Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.',
-    },
-    {
-      icon: 'fa-dumbbell',
-      title: 'GYM & Yoga',
-      description: 'Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.',
-    },
-  ];
-
   return (
-    <div className="services">
-      <Row>
-        {services.map((service, index) => (
-          <Col key={index} lg={4} md={6} className="wow fadeInUp" data-wow-delay={`${index * 0.1}s`}>
-            <Card className="service-item rounded">
-              <Card.Body className="service-icon bg-transparent border rounded p-1">
-                <div className="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
-                    
-                <i className={`fas ${service.icon} fa-2x text-primary`}></i>
+    <section className="text-center mt-4">
+      <div className="container">
+        <div className="space-y-3 mb-5">
+          <h1 className="mb-2 text-center">
+            Discover the joy of
+            <span className="text-uppercase" style={{ color: "#FEA116" }}>
+              {" "}
+              Oakwood
+            </span>
+          </h1>
+          <h6 style={{ fontWeight: 400, color: "#666565" }}>
+            Experience the great outdoors. We offer the best camping experience
+            for families and friends.
+          </h6>
+        </div>
+        <div className="row align-items-center justify-content-center gap-6">
+          {/* Image Section */}
+          <div className="col-lg-6">
+            <img
+              alt="Image"
+              className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center"
+              height="310"
+              src="img/slide2.jpg"
+              width="550"
+              style={{ borderRadius: 10 }}
+            />
+          </div>
+          {/* Text Section */}
+          <div className="col-lg-6">
+            <ul className="grid gap-6" style={{ listStyleType: "none" }}>
+              <li className="mb-4">
+                <div className="grid gap-1">
+                  <h4 className="text-xl font-bold ">Family Friendly</h4>
+                  <p style={{ fontWeight: 400, color: "#666565" }}>
+                    Our campsite is perfect for families with kids. We have fun
+                    activities for everyone.
+                  </p>
                 </div>
-              </Card.Body>
-              <Card.Body>
-                <Card.Title>{service.title}</Card.Title>
-                <Card.Text>{service.description}</Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-        ))}
-      </Row>
-    </div>
+              </li>
+              <li className="mb-4">
+                <div className="grid gap-1">
+                  <h4 className="text-xl font-bold ">Scenic Views</h4>
+                  <p style={{ fontWeight: 400, color: "#666565" }}>
+                    Wake up to breathtaking views of the mountains and the lake.
+                    Perfect for nature lovers.
+                  </p>
+                </div>
+              </li>
+              <li className="mb-5">
+                <div className="grid gap-1">
+                  <h4 className="text-xl font-bold ">Campfire Nights</h4>
+                  <p style={{ fontWeight: 400, color: "#666565" }}>
+                    Enjoy s'mores and stories by the campfire. Our friendly
+                    staff will make sure you have a great time.
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <div className="d-lg-flex justify-content-end flex-lg-row gap-2 gap-lg-4 ps-lg-4">
+              <a className="text-end" href="" style={{borderBottom:"1px solid #FEA116",fontWeight:500,textDecoration:"none", color: "#FEA116" }}>Show All Services</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 };
 

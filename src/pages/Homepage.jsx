@@ -14,9 +14,9 @@ const Homepage = () => {
     <NavigationBar />
     <CarouselComponent />
     <About />
-    <OurDeals />
-    <LuxuryLiving />
     <Services />
+    <LuxuryLiving />
+    <OurDeals />
     <Testimonial />
     <Team />
     </>
