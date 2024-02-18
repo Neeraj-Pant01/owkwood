@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Fade } from 'react-reveal';
 import './carousal.css';
 
