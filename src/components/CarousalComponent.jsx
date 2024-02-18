@@ -3,7 +3,9 @@ import './carousal.css';
 
 const CarouselComponent = () => {
   return (
+    
     <Carousel >
+       
       <Carousel.Item>
         <div className="carousel-item-container">
           <img className="d-block " src="img/main.jpg" alt="Image" />
