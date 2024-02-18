@@ -1,5 +1,4 @@
 import React from 'react'
-import NavigationBar from '../components/NavigationBar'
 import CarouselComponent from '../components/CarousalComponent'
 import About from '../components/About'
 import OurDeals from '../components/OurDeals'
@@ -11,7 +10,6 @@ import Team from '../components/Team'
 const Homepage = () => {
   return (
     <>
-    <NavigationBar />
     <CarouselComponent />
     <About />
     <Services />
