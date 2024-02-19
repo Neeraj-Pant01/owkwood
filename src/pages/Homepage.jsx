@@ -16,7 +16,7 @@ const Homepage = () => {
     <LuxuryLiving />
     <OurDeals />
     <Testimonial />
-    <Team />
+    {/* <Team /> */}
     </>
   )
 }

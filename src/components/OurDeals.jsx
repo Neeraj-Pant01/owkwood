@@ -16,7 +16,7 @@ const OurDeals = () => {
       <Container>
         <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
           <h6 className="section-title text-center text-uppercase"style={{color:'#FEA116',fontWeight:600}}>Our Deals</h6>
-          <h1 className="mb-5">Best Price For <span className="text-uppercase" style={{color:'#FEA116'}}>Your Stay</span></h1>
+          <p className="mb-5" style={{fontSize:'32px',fontWeight:600}}>Best Price For <span className="text-uppercase" style={{color:'#FEA116'}}>Your Stay</span></p>
         </div>
         <Row className="g-4">
           <Col lg={4} md={6} className="wow fadeInUp" data-wow-delay="0.1s">

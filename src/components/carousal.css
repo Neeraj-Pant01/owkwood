@@ -1,7 +1,7 @@
 .carousel-item-container {
     position: relative;
     /* width: 100dvh; */
-    height: 100dvh;
+    height: 75vh;
   }
   
   .carousel-item-container::before {

@@ -6,6 +6,7 @@ import Homepage from './pages/Homepage';
 import NavigationBar from './components/NavigationBar';
 import Aboutus from './pages/Aboutus/Aboutus';
 import { Route, Routes } from 'react-router-dom';
+import Footer from './components/Footer';
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
     {/* <Homepage /> */}
     {/* <Aboutus /> */}
     </Routes>
+    <Footer />
     </>
   )
 }

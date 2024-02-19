@@ -6,7 +6,7 @@ const About = () => {
         <div className="row g-5 align-items-center">
           <div className="col-lg-6">
             <h5 className="section-title text-start  text-uppercase" style={{color:'#FEA116',fontWeight:600,lineHeight:'35px',borderBottom:'2px solid #FEA116'}}>About Us</h5>
-            <h1 className="mb-4">Welcome to <span className="text-uppercase" style={{color:'#FEA116'}}>Oakwood-Resort</span></h1>
+            <p className="mb-4" style={{fontSize:'32px',fontWeight:600}}>Welcome to <span className="text-uppercase" style={{color:'#FEA116'}}>Oakwood-Resort</span></p>
             <p className="mb-4">
               Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet
               diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo

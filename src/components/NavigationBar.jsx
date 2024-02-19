@@ -1,45 +1,30 @@
-import { Navbar, Nav, Container } from 'react-bootstrap';
-
+// import { Navbar, Nav, Container } from 'react-bootstrap';
+import { MdSearch } from "react-icons/md";
+import { IoMdCall } from "react-icons/io";
+import { Link } from "react-router-dom";
 const NavigationBar = () => {
   return (
-    <>
-    <Navbar style={{height:'2.5rem',background:"#0F172B"}} expand="lg" variant="dark" >
-      <Container>
-       
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link style={{fontSize:14,fontWeight:600,color:'white'}}>Book Your Stay Now !</Nav.Link>
-            <Nav.Link href="/about" style={{fontSize:14,fontWeight:600,color:'white'}}>harshit@gmail.com</Nav.Link>
-            <Nav.Link href="/services" style={{fontSize:14,fontWeight:600,color:'white'}}>Call Us +91-9520593613</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
-    <nav  className="navbar navbar-expand-lg bg-body-tertiary" >
-  <div className="container-fluid" >
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <a className="navbar-brand" href="#">Navbar</a>
-    <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
-      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-        <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Link</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      <form className="d-flex" role="search">
-        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-      </form>
+    <nav className="navbar bg-body-tertiary p-4">
+    <div className=" d-flex w-100 justify-content-around  align-items-center">
+      <div className="d-flex align-items-center gap-3">
+        <div style={{background:'#d0d0d05e',borderRadius:'50%'}} className="p-2">
+          <MdSearch style={{fontSize:'22px'}}/> 
+        </div>
+          <div className="ms-2 d-flex align-items-center" style={{color:'gray'}}><IoMdCall  className="mr-2"/>+9520593613</div>
+      </div>
+      <div>Logo</div>
+      <div className="d-flex gap-4">
+      <a className="btn  text-white py-2 px-4" href="" style={{background:'#FEA116',borderRadius:'25px'}}>View Detail</a>
+      <a className="btn  text-white py-2 px-4" href="" style={{background:'#0F172B',borderRadius:'25px'}}>Book Now</a>
+      </div>
     </div>
-  </div>
-</nav>
-    </>
+    <div className="d-flex w-100 justify-content-center gap-5 mt-4">
+     <Link style={{color:'gray',fontSize:'16px'}}>Home</Link>
+     <Link style={{color:'gray',fontSize:'16px'}}>Services</Link>
+     <Link style={{color:'gray',fontSize:'16px'}}>Contact Us</Link>
+     <Link to="/about-us" style={{color:'gray',fontSize:'16px'}}>About Us</Link>
+    </div>
+  </nav>
   );
 };
 
