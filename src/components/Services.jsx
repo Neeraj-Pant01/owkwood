@@ -3,13 +3,13 @@ const Services = () => {
     <section className="text-center mt-4">
       <div className="container">
         <div className="space-y-3 mb-5">
-          <h1 className="mb-2 text-center">
+          <p className="mb-2 text-center" style={{fontSize:'32px',fontWeight:600}}>
             Discover the joy of
             <span className="text-uppercase" style={{ color: "#FEA116" }}>
               {" "}
               Oakwood
             </span>
-          </h1>
+          </p>
           <h6 style={{ fontWeight: 400, color: "#666565" }}>
             Experience the great outdoors. We offer the best camping experience
             for families and friends.
@@ -28,7 +28,7 @@ const Services = () => {
             />
           </div>
           {/* Text Section */}
-          <div className="col-lg-6">
+          <div className="col-lg-4">
             <ul className="grid gap-6" style={{ listStyleType: "none" }}>
               <li className="mb-4">
                 <div className="grid gap-1">

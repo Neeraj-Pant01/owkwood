@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Fade } from 'react-reveal';
 import './carousal.css';
 
@@ -16,7 +16,7 @@ const LuxuryLiving = () => {
           <div className="col-md-6 d-flex align-items-center" style={{ background: '#0F172B', height: '100%' }}>
             <div className="p-5">
               <h6 className="section-title text-start text-white text-uppercase mb-3">Rainbow Trout Fish</h6>
-              <h1 className="text-white mb-4"> Explore the Majestic Rainbow Trout</h1>
+              <p className="text-white mb-4"style={{fontSize:'32px',fontWeight:600}}> Explore the Majestic Rainbow Trout</p>
               <p className="text-white mb-4">
                 Indulge in a unique aquatic experience at our resort, where the vibrant Rainbow Trout thrives in crystal-clear waters.
                 Immerse yourself in the tranquility of nature and discover the allure of Rainbow Trout fishing at our exclusive retreat.

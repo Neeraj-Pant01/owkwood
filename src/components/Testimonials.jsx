@@ -29,8 +29,8 @@ const Testimonial = () => {
   ];
 
   return (
-    <div className="container-l testimonial my-5 py-5 " style={{ background: '#0F172B'}}>
-  <div className="container-xl p-lg-5" style={{ background:'white',borderRadius:15}}>
+    <div className="container-l testimonial my-5  " >
+  <div className="container-xl p-lg-5" style={{ boxShadow:'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px',borderRadius:15}}>
     <div className="row">
       <div className="col-lg-7">
         <Carousel autoPlay interval={3000}  infiniteLoop >

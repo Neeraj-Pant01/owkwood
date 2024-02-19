@@ -5,7 +5,7 @@ import ClientTestimonials from '../../components/ClientTestimonials'
 
 const Aboutus = () => {
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       <About />
       <Story />
       <ClientTestimonials />
