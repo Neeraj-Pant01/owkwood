@@ -1,7 +1,10 @@
 .carousel-item-container {
     position: relative;
-    /* width: 100dvh; */
-    height: 75vh;
+    z-index: 1;
+    background-image: url('/img/slide1.jpeg');
+    /* Optionally, you can set additional background properties such as size and position */
+    background-size: cover;
+    background-position: center;
   }
   
   .carousel-item-container::before {

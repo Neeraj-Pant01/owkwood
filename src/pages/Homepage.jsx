@@ -10,7 +10,7 @@ import Team from '../components/Team'
 const Homepage = () => {
   return (
     <>
-    <CarouselComponent />
+    {/* <CarouselComponent /> */}
     <About />
     <Services />
     <LuxuryLiving />
